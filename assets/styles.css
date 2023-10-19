@@ -1,0 +1,71 @@
+/* ########## This is the CSS for the pages created ########## */
+body {
+    margin: auto;
+    font-size: 18px;
+    line-height: 2em;
+    max-width: 85%;
+    background-color: #fdfdfd;
+    color: slate;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: rgb(176, 243, 221);
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    padding-left: 75px;
+}
+
+h1,
+h2 {
+    font-weight: 800;
+}
+blockquote {
+    padding-left: 10px;
+    font-weight: 200;
+    font-style: italic;
+    border-left: lightgray solid;
+}
+div, iframe {
+    display: block;
+    margin: auto;
+    padding: 25px 0;
+}
+img {
+    max-width: 400px;
+    width: 80%;
+}
+/* ########## Responsive Section ########## */
+
+@media screen and (min-width: 750px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 2.25em;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    body {
+        line-height: 1.2em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+    img {
+        width: 70%;
+    }
+}
