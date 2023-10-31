@@ -1,6 +1,6 @@
 What happens if the file page-head.txt is missing when you run the program?
 
-It won't work as it won't be a completed HTML.
+It won't work as it won't be a completed HTML page.
 
 How would we change the look and feel of the generated webpage?
 
