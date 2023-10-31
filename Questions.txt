@@ -1,0 +1,23 @@
+What happens if the file page-head.txt is missing when you run the program?
+
+It won't work as it won't be a completed HTML.
+
+How would we change the look and feel of the generated webpage?
+
+Using CSS to style it.
+
+How could we modify the program to work so that user input was not required to build the character pages?
+
+You can write the HTML code directly into the page-head/footer.txt
+
+What happens if we were to move files from the assets folder?
+
+It would not work due to not being able to access te txt files in order to create the HTML.
+
+Why did we include the file page-footer.txt?
+
+We close the body in the page-footer.txt, without it it won't work.
+
+Why does the combined_page variable need to be built in a specific order?
+
+Because it combines all the information available in the page in order to put it together into HTML.

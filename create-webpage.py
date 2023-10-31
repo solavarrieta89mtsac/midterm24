@@ -1,4 +1,7 @@
-# get the user input
+#Salvador M. Olavarrieta
+#Midterm - Character Webpage Creator
+#10/20/2023
+
 import sys
 import os
 
